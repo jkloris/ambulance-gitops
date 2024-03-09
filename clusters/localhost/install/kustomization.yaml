@@ -8,8 +8,9 @@ namespace: wac-hospital  # chceme tieto objekty umiestniť do `wac-hospital` nam
 commonLabels:
   app.kubernetes.io/part-of: wac-hospital
 
+components:
+- ../../../components/version-developers
+
 resources:
 - ../../../apps/jka-ambulance-ufe
 
-components:
-- ../../../components/version-developers
