@@ -10,7 +10,12 @@ commonLabels:
 
 components:
 - ../../../components/version-developers
+- https://github.com/jkloris/ambulance-webapi//deployments/kustomize/components/mongodb
 
 resources:
 - ../../../apps/jka-ambulance-ufe
+- ../../../apps/jka-ambulance-webapi
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
 
