@@ -7,7 +7,7 @@ spec:
                      # module web komponentu pre tento mikroFE
                      # - umiestnený v namespace wac-hospital
   navigation:
-    - element: jka-ambulance-wl-list    # element, ktorý bude vložený na stránku
+    - element: jka-ambulance-wl-app   # element, ktorý bude vložený na stránku
       attributes:
       - name: api-base
         value: http://localhost:30081/api
@@ -15,7 +15,7 @@ spec:
         value: bobulova
                                     # pri navigácii na zoznam čakajúcich
       path: jka-ambulance-wl      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
-      title: Zoznam čakajúcich (jka      # názov mikro aplikácie
+      title: Zoznam čakajúcich (xkapustaj)       # názov mikro aplikácie
       details: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
   proxy: true                       # pre komponenty v rámci klastra, neprístupné na verejnej sieti
