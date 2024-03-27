@@ -4,6 +4,10 @@ images:
 - name: jergusk/ambulance-ufe
   newName: jergusk/ambulance-ufe
   newTag: 1.0.1  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: jergusk/xkapustaj-ufe
+  newName: jergusk/xkapustaj-ufe
+  newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+
 
 replacements:
  - targets:
