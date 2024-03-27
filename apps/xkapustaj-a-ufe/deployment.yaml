@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: xkapustaj-ufe-container # meno kontaineru - v pod-e ich môže byť viac
-        image: jergusk/xkapustaj-ufe
+        image: jergusk/xkapusta-ufe
         imagePullPolicy: Always
 
         ports:

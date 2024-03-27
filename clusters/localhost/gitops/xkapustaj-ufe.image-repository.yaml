@@ -4,5 +4,5 @@ metadata:
   name: xkapustaj-ufe
   namespace: wac-hospital
 spec:
-  image: jergusk/xkapustaj-ufe
+  image: jergusk/xkapusta-ufe
   interval: 1m0s
