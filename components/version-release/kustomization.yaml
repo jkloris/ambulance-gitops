@@ -6,7 +6,7 @@ images:
   newTag: 1.0.1  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 - name: jergusk/xkapusta-ufe
   newName: jergusk/xkapusta-ufe
-  newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.0.1  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 
 
 replacements:
@@ -22,6 +22,22 @@ replacements:
      version: v1
      kind: Deployment
      name:  jka-ambulance-ufe-deployment
+     fieldPath: spec.template.spec.containers.0.image
+     options:
+         delimiter: ':'
+         index: 1
+ - targets:
+   - select:
+         group: fe.milung.eu
+         version: v1
+         kind: WebComponent
+         name: xkapustaj-a-ufe
+     fieldPaths:
+         - spec.hash-suffix
+   source:
+     version: v1
+     kind: Deployment
+     name:  xkapustaj-a-ufe-deployment
      fieldPath: spec.template.spec.containers.0.image
      options:
          delimiter: ':'
