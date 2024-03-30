@@ -3,7 +3,7 @@ kind: WebComponent
 metadata:
   name: xkapustaj-a-ufe
 spec:
-  module-uri: http://xkapustaj-a-ufe.wac-hospital/build/ambulance-ufe.esm.js
+  module-uri: http://xkapustaj-a-ufe.wac-hospital/build/xkapustaj-ufe.esm.js
                      # module web komponentu pre tento mikroFE
                      # - umiestnený v namespace wac-hospital
   navigation:
