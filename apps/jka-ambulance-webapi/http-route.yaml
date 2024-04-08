@@ -6,6 +6,8 @@ spec:
   parentRefs:
     - name: wac-hospital-gateway
       namespace: wac-hospital
+    - name: wac-hospital-gateway
+      namespace: wac-hospital-system
   rules:
     - matches:
         - path:
