@@ -9,7 +9,7 @@ images:
   newTag: 1.0.1  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 - name: jergusk/ambulance-wl-webapi
   newName: jergusk/ambulance-wl-webapi
-  newTag: 1.0.@
+  newTag: 1.0.2
 
 replacements:
  - targets:
