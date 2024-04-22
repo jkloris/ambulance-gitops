@@ -18,6 +18,7 @@ resources:
 - ../../../apps/xkapustaj-a-ufe
 - ../../../apps/mongo-express
 - ../../../apps/http-echo
+- ../../../apps/observability-webc
 
 patches:
 - path: patches/ambulance-webapi.service.yaml
