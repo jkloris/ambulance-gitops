@@ -50,7 +50,7 @@ user_role[ "admin" ] {
 
 # this are users with access to monitoring actions
 user_role[ "monitoring" ] {
-    user.email == "not-kapusta.jergus@gmail.com"
+    user.email == "kapusta.jergus@gmail.com"
 }
 
 
