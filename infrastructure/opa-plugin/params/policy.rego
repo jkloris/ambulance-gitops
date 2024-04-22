@@ -45,12 +45,12 @@ user_role[ "admin" ] {
 
 # this are admin users
 user_role[ "admin" ] {
-    user.email == "<kolegov@email>"
+    user.email == "kapusta.jergus@gmail.com"
 }
 
 # this are users with access to monitoring actions
 user_role[ "monitoring" ] {
-    user.email == "kapusta.jergus@gmail.com"
+    user.email == "not-kapusta.jergus@gmail.com"
 }
 
 
