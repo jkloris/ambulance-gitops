@@ -17,6 +17,7 @@ resources:
 - ../../../apps/jka-ambulance-webapi
 - ../../../apps/xkapustaj-a-ufe
 - ../../../apps/mongo-express
+- ../../../apps/http-echo
 
 patches:
 - path: patches/ambulance-webapi.service.yaml
