@@ -8,6 +8,11 @@ spec:
                      # - umiestnený v namespace wac-hospital
   navigation:
     - element: jka-app   # element, ktorý bude vložený na stránku
+      attributes:
+      - name: api-base
+        value: http://localhost:5000/api
+      - name: ambulance-id
+        value: bobulova
                                     # pri navigácii na zoznam čakajúcich
       path: jka-app      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: jka- xkapustaj - Hospital employee management     # názov mikro aplikácie
