@@ -15,7 +15,7 @@ spec:
         value: bobulova
                                     # pri navigácii na zoznam čakajúcich
       path: jka-app      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
-      title: jka- xkapustaj - Hospital employee management     # názov mikro aplikácie
+      title: xkapustaj - Hospital employee management     # názov mikro aplikácie
       details: Manages timesheets and office ours of hospital employees
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
   proxy: true                       # pre komponenty v rámci klastra, neprístupné na verejnej sieti
