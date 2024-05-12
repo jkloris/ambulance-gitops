@@ -1,0 +1,8 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta2
+kind: ImageRepository
+metadata:
+  name: xkapustaj-webapi
+  namespace: wac-hospital
+spec:
+  image: jergusk/xkapustaj-wl-webapi #### TU SOM SKOnic
+  interval: 1m0s

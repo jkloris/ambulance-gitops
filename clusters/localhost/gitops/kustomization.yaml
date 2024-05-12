@@ -21,6 +21,8 @@ resources:
   - xkapustaj-ufe.image-repository.yaml
   - xkapustaj-ufe.image-policy.yaml
   - secrets.kustomization.yaml
+  - xkapustaj-webapi.image-repository.yaml
+  - xkapustaj-webapi.image-policy.yaml
 
 patches:
 - target:

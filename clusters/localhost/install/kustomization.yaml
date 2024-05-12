@@ -11,6 +11,7 @@ commonLabels:
 components:
 - ../../../components/version-developers
 - https://github.com/jkloris/ambulance-webapi//deployments/kustomize/components/mongodb
+#- https://github.com/jkloris/xkapustaj-webapi//deployments/kustomize/components/mongodb
 
 resources:
 - ../../../apps/jka-ambulance-ufe
@@ -19,7 +20,9 @@ resources:
 - ../../../apps/mongo-express
 - ../../../apps/http-echo
 - ../../../apps/observability-webc
+- ../../../apps/xkapustaj-webapi
 
 patches:
 - path: patches/ambulance-webapi.service.yaml
 - path: patches/mongodb-auth.secret.yaml
+- path: patches/xkapustaj-webapi.service.yaml
