@@ -15,4 +15,4 @@ images:
   newTag: main.20240512.1943 # {"$imagepolicy": "wac-hospital:xkapustaj-ufe:tag"}
 - name: jergusk/xkapustaj-wl-webapi
   newName: jergusk/xkapustaj-wl-webapi # {"$imagepolicy":  "wac-hospital:xkapustaj-webapi:name"}
-  newTag: main.20240512.2038 # {"$imagepolicy": "wac-hospital:xkapustaj-webapi:tag"}
+  newTag: main.20240512.2111 # {"$imagepolicy": "wac-hospital:xkapustaj-webapi:tag"}
