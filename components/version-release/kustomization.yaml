@@ -12,7 +12,7 @@ images:
   newTag: 1.0.2
 - name: jergusk/xkapustaj-wl-webapi
   newName: jergusk/xkapustaj-wl-webapi
-  newTag: 1.0.3
+  newTag: 1.0.4
 
 replacements:
  - targets:
