@@ -11,8 +11,8 @@ images:
   newName: jergusk/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
   newTag: main.20240325.1020 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
 - name: jergusk/xkapustaj-ufe
-  newName: jergusk/xkapustaj-ufe # {"$imagepolicy":  "wac-hospital:xkapustaj-webapi:name"}
-  newTag: main # {"$imagepolicy": "wac-hospital:xkapustaj-webapi:tag"}
+  newName: jergusk/xkapustaj-ufe # {"$imagepolicy":  "wac-hospital:xkapustaj-ufe:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:xkapustaj-ufe:tag"}
 - name: jergusk/xkapustaj-wl-webapi
   newName: jergusk/xkapustaj-wl-webapi # {"$imagepolicy":  "wac-hospital:xkapustaj-webapi:name"}
   newTag: main.20240511.1910 # {"$imagepolicy": "wac-hospital:xkapustaj-webapi:tag"}
